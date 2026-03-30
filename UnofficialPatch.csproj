@@ -75,7 +75,6 @@
     <Compile Include="Patches\FasterLoadPatch.cs" />
     <Compile Include="Patches\BasinFountainPatch.cs" />
     <Compile Include="Patches\DoubleJumpFixPatch.cs" />
-    <Compile Include="Patches\WallslideClampPatch.cs" />
     <Compile Include="Patches\PantheonZeroMaskPatch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
