@@ -72,10 +72,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Plugin.cs" />
+    <Compile Include="FsmUtil.cs" />
     <Compile Include="Patches\FasterLoadPatch.cs" />
     <Compile Include="Patches\BasinFountainPatch.cs" />
     <Compile Include="Patches\DoubleJumpFixPatch.cs" />
     <Compile Include="Patches\PantheonZeroMaskPatch.cs" />
+    <Compile Include="Patches\CameraKeepRumblingPatch.cs" />
+    <Compile Include="Patches\CrossingOomaPatch.cs" />
+    <Compile Include="Patches\GodTamerBeastRollPatch.cs" />
+    <Compile Include="Patches\GreyPrinceNailSlamPatch.cs" />
+    <Compile Include="Patches\HUDDisplayCheckerPatch.cs" />
+    <Compile Include="Patches\TransitionDeathPatch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
